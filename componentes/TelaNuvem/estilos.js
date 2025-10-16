@@ -14,10 +14,12 @@ const estilos = StyleSheet.create({
     paddingVertical: 20,
   },
   conteudo: {
+    margin: 22,
     marginTop: 97,
     alignItems: 'center',
   },
   titulo: {
+
     color: '#21a020',
     fontSize: 32,
     fontWeight: 'bold',
