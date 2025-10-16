@@ -4,11 +4,12 @@ const estilos = StyleSheet.create({
   container: {
     height: 1,
     backgroundColor: '#181818',
-    paddingHorizontal: 16,
+    paddingHorizontal: 30,
     paddingTop: 24,
     paddingBottom: 24,
   },
   scroll: {
+    
     backgroundColor: '#181818',
   },
   titulo: {
@@ -48,6 +49,7 @@ const estilos = StyleSheet.create({
     fontSize: 15,
     marginTop: 10,
     lineHeight: 22,
+    marginBottom: 10,
   },
 });
 

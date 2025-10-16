@@ -3,8 +3,10 @@ import { StyleSheet } from 'react-native';
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
+      
   },
   scrollContainer: {
+  
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -12,6 +14,7 @@ const estilos = StyleSheet.create({
     paddingVertical: 20,
   },
   conteudo: {
+    marginTop: 97,
     alignItems: 'center',
   },
   titulo: {

@@ -7,11 +7,8 @@ import estilos from './estilos';
 
 export default function TelaNuvem() {
   return (
+    <ScrollView style={estilos.container}>
     <ImageBackground source={imgFundo} style={estilos.container}>
-      <ScrollView
-        contentContainerStyle={estilos.scrollContainer}
-        showsVerticalScrollIndicator={false}
-      >
         <View style={estilos.conteudo}>
           <Text style={estilos.titulo}>Xbox Cloud Gaming</Text>
           <Text style={estilos.subtitulo}>Serviço de streaming de jogos</Text>
@@ -26,7 +23,7 @@ export default function TelaNuvem() {
           </Text>
           <Image source={img1} style={estilos.img} />
         </View>
-      </ScrollView>
     </ImageBackground>
+  </ScrollView>
   );
 }

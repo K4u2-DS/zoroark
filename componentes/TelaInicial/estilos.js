@@ -3,18 +3,18 @@ import { StyleSheet } from 'react-native';
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#111',
+    backgroundColor: '#303030ff',
     alignItems: 'center',
     paddingVertical: 25,
     paddingHorizontal: 20,
   },
 
-  // imagem superior (logo principal)
-  img: {
-  width: 90,
-  aspectRatio: 1,  // mantém proporção 1:1
-  borderRadius: 45, // metade do tamanho para deixar arredondada
-    resizeMode: 'cover', // preenche o círculo
+  imgfundo: {
+    marginTop: 80,
+    width: 80,
+    borderRadius: 90,
+    aspectRatio: 1, 
+    resizeMode: 'cover',
     marginBottom: 10,
   },
 
@@ -35,31 +35,33 @@ const estilos = StyleSheet.create({
   },
 
   card: {
-    backgroundColor: '#107C10',
-    borderRadius: 14,
-    width: '100%',
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    marginBottom: 15,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'column',
-    overflow: 'hidden',
-  },
+  backgroundColor: '#107C10',
+  borderRadius: 14,
+  width: 300,
+  padding: 12,
+  marginBottom: 15,
+  alignItems: 'center',
+  justifyContent: 'flex-start',
+  flexDirection: 'row',
+  overflow: 'hidden',
+  height: 100,
+},
 
-  cardImg: {
-    width: 80,
-    height: 80,
-    resizeMode: 'contain',
-    marginBottom: 8,
-  },
+cardImg: {
+  width: 80,
+  height: 80,
+  marginRight: 12, 
+},
 
-  cardTexto: {
-    color: '#fff',
-    fontSize: 17,
-    fontWeight: '600',
-    textAlign: 'center',
-  },
+cardTexto: {
+  resizeMode: 'contain',
+  width: 100,
+  color: '#fff',
+  fontSize: 20,
+  fontWeight: '60',
+  textAlign: 'left',
+  
+},
 });
 
 export default estilos;

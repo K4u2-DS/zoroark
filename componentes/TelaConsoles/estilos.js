@@ -1,15 +1,10 @@
 import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5', // fundo claro
-    paddingVertical: 30,
-    paddingHorizontal: 16,
-  },
-    scroll: {
-    
-    backgroundColor: '#181818',
+ 
+  scroll: {
+    backgroundColor: '#ffffffff',
+    height:1,
   },
   box: {
     backgroundColor: '#fff',
@@ -18,10 +13,6 @@ const estilos = StyleSheet.create({
     paddingHorizontal: 18,
     marginBottom: 28,
     alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
-    shadowRadius: 6,
     elevation: 3,
   },
   img: {
